@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A good day !</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="head">
+            <h1 class="rool">A <b style="color:rgba(59, 149, 59, 0.87);">Beautiful</b> Day !</h1>
+        </div>
+    </header>
+
+    <div class="page">
+        <section class="details">
+            <h2>Sign up today for no action !</h2>
+            <form action="" class="signup">
+                <input type="text" placeholder="Your Name">
+                <input type="email" placeholder="Email Address">
+                <input type="submit" value="Sign Up">
+            </form>
+        </section>
+
+        <br>
+        <br>
+
+        <div class="alert">
+            <span class="closebtn">&times;</span>
+            “You always pass failure on the way to success.”
+        </div>
+
+        <div class="alert success">
+            <span class="closebtn">&times;</span>
+            “No one is perfect - that’s why pencils have erasers.”
+        </div>
+
+        <div class="alert info">
+            <span class="closebtn">&times;</span>
+            “It always seems impossible until it is done.”
+        </div>
+
+        <div class="alert warning">
+            <span class="closebtn">&times;</span>
+            “Keep your face to the sunshine and you cannot see a shadow.”
+        </div>
+    </div>
+
+
+
+
+    <div class="footer">
+        <div class="contain">
+            <div class="col">
+                <h1>Developers</h1>
+                <ul>
+                    <li>Mosh</li>
+                    <li>Mike</li>
+                    <li>John Smith</li>
+                    <li>Jayed Ahsan</li>
+                    <li>Jarif Kahn</li>
+                </ul>
+            </div>
+            <div class="col">
+                <h1>Creation</h1>
+                <ul>
+                    <li>Chat-bot</li>
+                    <li>Social-site</li>
+                    <li>Software</li>
+                    <li>Games</li>
+                    <li>News-blogs</li>
+                </ul>
+            </div>
+            <div class="col">
+                <h1>About</h1>
+                <ul>
+                    <li>Terms</li>
+                    <li>Mission</li>
+                    <li>Services</li>
+                    <li>Education</li>
+                    <li>Get in touch</li>
+                </ul>
+            </div>
+            <div class="col">
+                <h1>Website</h1>
+                <ul>
+                    <li>Codoxia</li>
+                    <li>Codo Code</li>
+                    <li>CodePotro</li>
+                    <li>CodeRunner</li>
+                    <li>Code-templates</li>
+                    <li>CodeKhan</li>
+                </ul>
+            </div>
+            <div class="col">
+                <h1>Support</h1>
+                <ul>
+                    <li>Contact us</li>
+                    <li>Send Email</li>
+                    <li>Buy a phone</li>
+                </ul>
+            </div>
+            <div class="col social">
+                <h1>Social</h1>
+                <ul>
+                    <li><img src="1.png" width="32" style="width: 32px;"></li>
+                    <li><img src="2.png" width="32" style="width: 32px;"></li>
+                    <li><img src="3.png" width="32" style="width: 32px;"></li>
+
+                </ul>
+            </div>
+            <div class="clearfix"></div>
+            <footer class="foot">
+                <p>&copy;2020 Codoxia Creators. All rights Reserved. Design by AhsanParadise.</p>
+            </footer>
+        </div>
+
+
+    </div>
+
+
+
+    <script>
+        var close = document.getElementsByClassName("closebtn");
+        var i;
+
+        for (i = 0; i < close.length; i++) {
+            close[i].onclick = function () {
+                var div = this.parentElement;
+                div.style.opacity = "0";
+                setTimeout(function () { div.style.display = "none"; }, 600);
+            }
+        }
+    </script>
+</body>
+
+</html>

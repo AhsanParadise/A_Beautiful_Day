@@ -1,0 +1,271 @@
+
+/*=======================================================
+	
+       G o o d L u c k  from Codoxia
+
+=========================================================*/
+
+
+html,body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, Sans-serif;
+    background-color:rgb(27, 27, 47);
+    animation: drop 1.0s ease; /* Make things beautiful */
+  }
+.rool {
+    font-family: "Raleway", Arial, sans-serif;
+    color:whitesmoke;
+    
+    
+     /* Header Div */  
+
+}
+  .head {
+     font-size: 50px;
+     text-align: center;
+     padding:100px;
+     height: 100px;
+     background-image: url(hood.gif);
+     background-position: center;
+     padding-bottom: 200px;
+     
+  
+  }
+  .page {
+    height: 690px;
+    width: 100%;
+    background-color: #fff;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 60px 0px;
+  }
+
+  .details {
+    -webkit-box-ordinal-group: 4;
+    order: 3;
+  }
+
+  input {
+    padding: 10px;
+    border: 0;
+  }
+
+
+/*Email */
+
+  @import url('https://fonts.googleapis.com/css?family=Lato:400,900');
+
+
+  input {
+    padding: 0.75em 2em;
+    font-size: 1rem;
+  }
+  
+  input[type=text], input[type=email] {
+    border: 1px solid #e2e2e2;
+    margin:5px;
+   
+    
+  }
+  
+  input[type=submit] {
+    background: #222;
+    border: 1px solid #222;
+    color: #fff;
+    cursor: pointer;
+    margin: 5px;
+    outline: none;
+    
+    
+  }
+
+
+  p {
+      color: #999999;
+      text-align: center;
+  }
+
+
+
+         /*Alert box */
+
+  .alert {
+    padding: 30px;
+    background-color: #f44336;
+    color: white;
+    opacity: 1;
+    transition: opacity 0.6s;
+    margin-bottom: 15px;
+    margin-right: 100px;
+    margin-left: 100px;
+    font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: 30px;
+    
+  }
+  
+  .alert.success {background-color: #4CAF50;}
+  .alert.info {background-color: #2196F3;}
+  .alert.warning {background-color: #ff9800;}
+  
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .closebtn:hover {
+    color: black;
+  }
+
+
+
+
+  /* FOOTER  */
+  .footer {
+    width: 100%;
+    position: relative;
+    height: auto;
+    background-color:rgba(27, 27, 47, 0.842);
+  }
+  .footer .col {
+    width: 190px;
+    height: auto;
+    float: left;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 0px 20px 20px 20px;
+  }
+  .footer .col h1 {
+    margin: 0;
+    padding: 0;
+    font-family: inherit;
+    font-size: 12px;
+    line-height: 17px;
+    padding: 20px 0px 5px 0px;
+    color: orange;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.250em;
+  }
+  .footer .col ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .footer .col ul li {
+    color: #999999;
+    font-size: 14px;
+    font-family: inherit;
+    font-weight: bold;
+    padding: 5px 0px 5px 0px;
+    cursor: pointer;
+    transition: .2s;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+  }
+  .social ul li {
+    display: inline-block;
+    padding-right: 5px;
+  }
+  
+  .footer .col ul li:hover {
+    color: #ffffff;
+    transition: .1s;
+    -webkit-transition: .1s;
+    -moz-transition: .1s;
+  }
+  .clearfix {
+    clear: both;
+  }
+
+  .foot {
+    border-top: 1px solid #e2e2e2;
+  }
+
+
+
+
+
+/*======== I M P O R T A N T   P A R T ============ */
+
+
+  @media only screen and (min-width: 1280px) {
+    .contain {
+      width: 1200px;
+      margin: 0 auto;
+    }
+  }
+  @media only screen and (max-width: 1139px) {
+    .contain .social {
+      width: 1000px;
+      display: block;
+    }
+    .social h1 {
+      margin: 0px;
+    }
+  }
+  @media only screen and (max-width: 950px) {
+    .head {
+        height: 30%;
+    }
+    .page {
+        height: 40%;
+    }
+    .footer .col {
+      width: 33%;
+    }
+    .footer .col h1 {
+      font-size: 14px;
+    }
+    .footer .col ul li {
+      font-size: 13px;
+    }
+  }
+  @media only screen and (max-width: 500px) {
+    .head {
+        height: 30%;
+    }
+.rool {
+  font-size: 60px;
+}
+      .footer .col {
+        width: 50%;
+      }
+      .footer .col h1 {
+        font-size: 14px;
+      }
+      .footer .col ul li {
+        font-size: 13px;
+      }
+  }
+  @media only screen and (max-width: 340px) {
+    .footer .col {
+      width: 100%;
+    }
+  }
+
+  @keyframes drop {
+    0% {
+      opacity: 0;
+      transform: translateY(-80px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+  
+ 
+
+
+ /* T H A N K  Y O U */
+
+
+  
