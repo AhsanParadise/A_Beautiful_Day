@@ -13,3 +13,4 @@ A website footer is found at the bottom of your site pages. It typically include
 # Include a Call to Action.
 # Use Graphic Elements.
 # Be Aware of Contrast and Readability.
++
